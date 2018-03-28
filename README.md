@@ -1,4 +1,4 @@
-sprint-boot-parent dependency is  available in parent po
+sprint-boot-parent dependency is  available in springboot/pom.xml
 
 MOngo db to be started before starting application
 D:\set up\mongodb\bin>mongod.exe --dbpath "d:\set up\mongodb\data" 
