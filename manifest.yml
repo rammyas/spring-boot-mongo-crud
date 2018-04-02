@@ -1,0 +1,11 @@
+---
+applications:
+- name: myapp-app
+  memory: 1024M
+  instances: 1
+  host: componentScanapp-Ramya
+  #domain: local.pcfdev.io
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  path: target/spring-boot-api-0.1.jar
+services:
+  - mongo-db
