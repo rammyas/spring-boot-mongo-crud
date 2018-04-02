@@ -1,11 +1,11 @@
 ---
 applications:
-- name: myapp-app
+- name: spring-boot-mongo-api
   memory: 1024M
   instances: 1
-  host: componentScanapp-Ramya
+  host: mongoCRUDapp-Ramya
   #domain: local.pcfdev.io
   buildpack: https://github.com/cloudfoundry/java-buildpack
-  path: target/spring-boot-api-0.1.jar
+  path: target/spring-boot-mongo-api-0.1.jar
 services:
   - mongo-db
